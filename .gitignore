@@ -30,7 +30,7 @@ dist/
 *.pc
 *.exp
 *.lib
-src/parser.c
+# src/parser.c
 
 # Zig artifacts
 .zig-cache/

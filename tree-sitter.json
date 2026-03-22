@@ -1,0 +1,43 @@
+{
+    "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+    "grammars": [
+        {
+            "name": "feral",
+            "camelcase": "Feral",
+            "title": "Feral",
+            "scope": "source.feral",
+            "file-types": [
+                "fer",
+                "fecl"
+            ],
+            "highlights": "queries/highlights.scm",
+            "locals": "queries/locals.scm",
+            "injection-regex": "feral",
+            "class-name": "TreeSitterFeral"
+        }
+    ],
+    "metadata": {
+        "version": "0.1.0",
+        "license": "MIT",
+        "description": "Tree sitter parser for the Feral programming implementation",
+        "authors": [
+            {
+                "name": "Elec",
+                "email": "feral@mail.electrux.me",
+                "url": "https://github.com/Feral-Lang"
+            }
+        ],
+        "links": {
+            "repository": "https://github.com/Feral-Lang/tree-sitter-feral"
+        }
+    },
+    "bindings": {
+        "c": true,
+        "go": true,
+        "node": true,
+        "python": true,
+        "rust": true,
+        "swift": true,
+        "zig": false
+    }
+}

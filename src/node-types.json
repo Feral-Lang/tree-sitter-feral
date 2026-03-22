@@ -1,0 +1,6108 @@
+[
+  {
+    "type": "additive_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignment_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "await_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "bitwise_and_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "bitwise_or_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "bitwise_xor_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "braced_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        },
+        {
+          "type": "break_stmt",
+          "named": true
+        },
+        {
+          "type": "conditional",
+          "named": true
+        },
+        {
+          "type": "continue_stmt",
+          "named": true
+        },
+        {
+          "type": "defer_stmt",
+          "named": true
+        },
+        {
+          "type": "expr_stmt",
+          "named": true
+        },
+        {
+          "type": "for_in_loop",
+          "named": true
+        },
+        {
+          "type": "for_loop",
+          "named": true
+        },
+        {
+          "type": "return_stmt",
+          "named": true
+        },
+        {
+          "type": "var_decl_stmt",
+          "named": true
+        },
+        {
+          "type": "while_loop",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "break_stmt",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "call_arg",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "named_call_arg",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "call_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_arg",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comma_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "compound_assign_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_op",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_block",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "compound_assign_op",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "conditional",
+    "named": true,
+    "fields": {
+      "alternative": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "braced_block",
+            "named": true
+          }
+        ]
+      },
+      "condition": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "consequence": {
+        "multiple": true,
+        "required": true,
+        "types": [
+          {
+            "type": "braced_block",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "continue_stmt",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "defer_stmt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "equality_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expr_stmt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "comma_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "fn_def",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        },
+        {
+          "type": "fn_params",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "fn_param",
+    "named": true,
+    "fields": {
+      "default": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "fn_params",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "fn_param",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "for_in_loop",
+    "named": true,
+    "fields": {
+      "iterable": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "variable": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "for_loop",
+    "named": true,
+    "fields": {
+      "condition": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "init": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "comma_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "var_decl",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "update": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "comma_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "logical_and_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "logical_or_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member_expr",
+    "named": true,
+    "fields": {
+      "member": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "void",
+            "named": false
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "multiplicative_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "named_call_arg",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "nil_coalesce_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "or_block",
+    "named": true,
+    "fields": {
+      "error_var": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "or_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_block",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "paren_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "comma_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "postfix_op",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "prefix_op",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "prefixed_literal",
+    "named": true,
+    "fields": {
+      "literal": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      },
+      "prefix": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "relational_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "return_stmt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "shift_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        },
+        {
+          "type": "break_stmt",
+          "named": true
+        },
+        {
+          "type": "conditional",
+          "named": true
+        },
+        {
+          "type": "continue_stmt",
+          "named": true
+        },
+        {
+          "type": "defer_stmt",
+          "named": true
+        },
+        {
+          "type": "expr_stmt",
+          "named": true
+        },
+        {
+          "type": "for_in_loop",
+          "named": true
+        },
+        {
+          "type": "for_loop",
+          "named": true
+        },
+        {
+          "type": "return_stmt",
+          "named": true
+        },
+        {
+          "type": "var_decl_stmt",
+          "named": true
+        },
+        {
+          "type": "while_loop",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subscript_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "suffixed_literal",
+    "named": true,
+    "fields": {
+      "literal": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      },
+      "suffix": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "identifier",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "ternary_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unary_postfix_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "postfix_op",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "unary_prefix_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefix_op",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_bind",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      },
+      "type": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      },
+      "value": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "var_decl",
+    "named": true,
+    "fields": {
+      "doc": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "string_literal",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "var_bind",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "var_decl_stmt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "var_decl",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "while_loop",
+    "named": true,
+    "fields": {
+      "condition": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "additive_expr",
+            "named": true
+          },
+          {
+            "type": "assignment_expr",
+            "named": true
+          },
+          {
+            "type": "atom",
+            "named": true
+          },
+          {
+            "type": "await_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_and_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_or_expr",
+            "named": true
+          },
+          {
+            "type": "bitwise_xor_expr",
+            "named": true
+          },
+          {
+            "type": "call_expr",
+            "named": true
+          },
+          {
+            "type": "compound_assign_expr",
+            "named": true
+          },
+          {
+            "type": "equality_expr",
+            "named": true
+          },
+          {
+            "type": "false",
+            "named": false
+          },
+          {
+            "type": "float_literal",
+            "named": true
+          },
+          {
+            "type": "fn_def",
+            "named": true
+          },
+          {
+            "type": "identifier",
+            "named": true
+          },
+          {
+            "type": "integer_literal",
+            "named": true
+          },
+          {
+            "type": "logical_and_expr",
+            "named": true
+          },
+          {
+            "type": "logical_or_expr",
+            "named": true
+          },
+          {
+            "type": "member_expr",
+            "named": true
+          },
+          {
+            "type": "multiplicative_expr",
+            "named": true
+          },
+          {
+            "type": "nil",
+            "named": false
+          },
+          {
+            "type": "nil_coalesce_expr",
+            "named": true
+          },
+          {
+            "type": "or_expr",
+            "named": true
+          },
+          {
+            "type": "paren_expr",
+            "named": true
+          },
+          {
+            "type": "prefixed_literal",
+            "named": true
+          },
+          {
+            "type": "relational_expr",
+            "named": true
+          },
+          {
+            "type": "shift_expr",
+            "named": true
+          },
+          {
+            "type": "string_literal",
+            "named": true
+          },
+          {
+            "type": "subscript_expr",
+            "named": true
+          },
+          {
+            "type": "suffixed_literal",
+            "named": true
+          },
+          {
+            "type": "ternary_expr",
+            "named": true
+          },
+          {
+            "type": "true",
+            "named": false
+          },
+          {
+            "type": "unary_postfix_expr",
+            "named": true
+          },
+          {
+            "type": "unary_prefix_expr",
+            "named": true
+          },
+          {
+            "type": "void",
+            "named": false
+          },
+          {
+            "type": "yield_expr",
+            "named": true
+          }
+        ]
+      }
+    },
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "braced_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "yield_expr",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "additive_expr",
+          "named": true
+        },
+        {
+          "type": "assignment_expr",
+          "named": true
+        },
+        {
+          "type": "atom",
+          "named": true
+        },
+        {
+          "type": "await_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_and_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_or_expr",
+          "named": true
+        },
+        {
+          "type": "bitwise_xor_expr",
+          "named": true
+        },
+        {
+          "type": "call_expr",
+          "named": true
+        },
+        {
+          "type": "compound_assign_expr",
+          "named": true
+        },
+        {
+          "type": "equality_expr",
+          "named": true
+        },
+        {
+          "type": "float_literal",
+          "named": true
+        },
+        {
+          "type": "fn_def",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "integer_literal",
+          "named": true
+        },
+        {
+          "type": "logical_and_expr",
+          "named": true
+        },
+        {
+          "type": "logical_or_expr",
+          "named": true
+        },
+        {
+          "type": "member_expr",
+          "named": true
+        },
+        {
+          "type": "multiplicative_expr",
+          "named": true
+        },
+        {
+          "type": "nil_coalesce_expr",
+          "named": true
+        },
+        {
+          "type": "or_expr",
+          "named": true
+        },
+        {
+          "type": "paren_expr",
+          "named": true
+        },
+        {
+          "type": "prefixed_literal",
+          "named": true
+        },
+        {
+          "type": "relational_expr",
+          "named": true
+        },
+        {
+          "type": "shift_expr",
+          "named": true
+        },
+        {
+          "type": "string_literal",
+          "named": true
+        },
+        {
+          "type": "subscript_expr",
+          "named": true
+        },
+        {
+          "type": "suffixed_literal",
+          "named": true
+        },
+        {
+          "type": "ternary_expr",
+          "named": true
+        },
+        {
+          "type": "unary_postfix_expr",
+          "named": true
+        },
+        {
+          "type": "unary_prefix_expr",
+          "named": true
+        },
+        {
+          "type": "yield_expr",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "!",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "%=",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "&&",
+    "named": false
+  },
+  {
+    "type": "&=",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "**",
+    "named": false
+  },
+  {
+    "type": "*=",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": "++",
+    "named": false
+  },
+  {
+    "type": "+=",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "--",
+    "named": false
+  },
+  {
+    "type": "-=",
+    "named": false
+  },
+  {
+    "type": "->",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "...",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": "//",
+    "named": false
+  },
+  {
+    "type": "/=",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<<",
+    "named": false
+  },
+  {
+    "type": "<<=",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": ">>",
+    "named": false
+  },
+  {
+    "type": ">>=",
+    "named": false
+  },
+  {
+    "type": "?",
+    "named": false
+  },
+  {
+    "type": "??",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "^",
+    "named": false
+  },
+  {
+    "type": "^=",
+    "named": false
+  },
+  {
+    "type": "atom",
+    "named": true
+  },
+  {
+    "type": "await",
+    "named": false
+  },
+  {
+    "type": "block_comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "break",
+    "named": false
+  },
+  {
+    "type": "continue",
+    "named": false
+  },
+  {
+    "type": "defer",
+    "named": false
+  },
+  {
+    "type": "elif",
+    "named": false
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "float_literal",
+    "named": true
+  },
+  {
+    "type": "fn",
+    "named": false
+  },
+  {
+    "type": "for",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "inline",
+    "named": false
+  },
+  {
+    "type": "integer_literal",
+    "named": true
+  },
+  {
+    "type": "let",
+    "named": false
+  },
+  {
+    "type": "line_comment",
+    "named": true,
+    "extra": true
+  },
+  {
+    "type": "nil",
+    "named": false
+  },
+  {
+    "type": "or",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "string_literal",
+    "named": true
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "void",
+    "named": false
+  },
+  {
+    "type": "wait",
+    "named": false
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "yield",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "|",
+    "named": false
+  },
+  {
+    "type": "|=",
+    "named": false
+  },
+  {
+    "type": "||",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  },
+  {
+    "type": "~",
+    "named": false
+  },
+  {
+    "type": "~=",
+    "named": false
+  }
+]
